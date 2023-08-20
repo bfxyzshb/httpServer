@@ -57,27 +57,27 @@ include CMakeFiles/httpserver.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/httpserver.dir/flags.make
 
-CMakeFiles/httpserver.dir/main.c.o: CMakeFiles/httpserver.dir/flags.make
-CMakeFiles/httpserver.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hebiao1/CLionProjects/httpserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/httpserver.dir/main.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/httpserver.dir/main.c.o   -c /Users/hebiao1/CLionProjects/httpserver/main.c
+CMakeFiles/httpserver.dir/httpserver.c.o: CMakeFiles/httpserver.dir/flags.make
+CMakeFiles/httpserver.dir/httpserver.c.o: ../httpserver.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hebiao1/CLionProjects/httpserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/httpserver.dir/httpserver.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/httpserver.dir/httpserver.c.o   -c /Users/hebiao1/CLionProjects/httpserver/httpserver.c
 
-CMakeFiles/httpserver.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/httpserver.dir/main.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hebiao1/CLionProjects/httpserver/main.c > CMakeFiles/httpserver.dir/main.c.i
+CMakeFiles/httpserver.dir/httpserver.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/httpserver.dir/httpserver.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hebiao1/CLionProjects/httpserver/httpserver.c > CMakeFiles/httpserver.dir/httpserver.c.i
 
-CMakeFiles/httpserver.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/httpserver.dir/main.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hebiao1/CLionProjects/httpserver/main.c -o CMakeFiles/httpserver.dir/main.c.s
+CMakeFiles/httpserver.dir/httpserver.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/httpserver.dir/httpserver.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hebiao1/CLionProjects/httpserver/httpserver.c -o CMakeFiles/httpserver.dir/httpserver.c.s
 
 # Object files for target httpserver
 httpserver_OBJECTS = \
-"CMakeFiles/httpserver.dir/main.c.o"
+"CMakeFiles/httpserver.dir/httpserver.c.o"
 
 # External object files for target httpserver
 httpserver_EXTERNAL_OBJECTS =
 
-httpserver: CMakeFiles/httpserver.dir/main.c.o
+httpserver: CMakeFiles/httpserver.dir/httpserver.c.o
 httpserver: CMakeFiles/httpserver.dir/build.make
 httpserver: CMakeFiles/httpserver.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hebiao1/CLionProjects/httpserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable httpserver"

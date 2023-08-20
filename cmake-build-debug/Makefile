@@ -123,32 +123,32 @@ httpserver/fast:
 	$(MAKE) -f CMakeFiles/httpserver.dir/build.make CMakeFiles/httpserver.dir/build
 .PHONY : httpserver/fast
 
-main.o: main.c.o
+httpserver.o: httpserver.c.o
 
-.PHONY : main.o
+.PHONY : httpserver.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/httpserver.dir/build.make CMakeFiles/httpserver.dir/main.c.o
-.PHONY : main.c.o
+httpserver.c.o:
+	$(MAKE) -f CMakeFiles/httpserver.dir/build.make CMakeFiles/httpserver.dir/httpserver.c.o
+.PHONY : httpserver.c.o
 
-main.i: main.c.i
+httpserver.i: httpserver.c.i
 
-.PHONY : main.i
+.PHONY : httpserver.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/httpserver.dir/build.make CMakeFiles/httpserver.dir/main.c.i
-.PHONY : main.c.i
+httpserver.c.i:
+	$(MAKE) -f CMakeFiles/httpserver.dir/build.make CMakeFiles/httpserver.dir/httpserver.c.i
+.PHONY : httpserver.c.i
 
-main.s: main.c.s
+httpserver.s: httpserver.c.s
 
-.PHONY : main.s
+.PHONY : httpserver.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/httpserver.dir/build.make CMakeFiles/httpserver.dir/main.c.s
-.PHONY : main.c.s
+httpserver.c.s:
+	$(MAKE) -f CMakeFiles/httpserver.dir/build.make CMakeFiles/httpserver.dir/httpserver.c.s
+.PHONY : httpserver.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... httpserver"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... httpserver.o"
+	@echo "... httpserver.i"
+	@echo "... httpserver.s"
 .PHONY : help
 
 

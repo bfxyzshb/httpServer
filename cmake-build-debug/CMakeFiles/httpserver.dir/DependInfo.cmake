@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/hebiao1/CLionProjects/httpserver/main.c" "/Users/hebiao1/CLionProjects/httpserver/cmake-build-debug/CMakeFiles/httpserver.dir/main.c.o"
+  "/Users/hebiao1/CLionProjects/httpserver/httpserver.c" "/Users/hebiao1/CLionProjects/httpserver/cmake-build-debug/CMakeFiles/httpserver.dir/httpserver.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

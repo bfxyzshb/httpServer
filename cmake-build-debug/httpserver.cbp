@@ -78,7 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/hebiao1/CLionProjects/httpserver/main.c">
+		<Unit filename="/Users/hebiao1/CLionProjects/httpserver/httpserver.c">
 			<Option target="httpserver"/>
 		</Unit>
 		<Unit filename="/Users/hebiao1/CLionProjects/httpserver/CMakeLists.txt">

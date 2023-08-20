@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/httpserver.dir/main.c.o"
+  "CMakeFiles/httpserver.dir/httpserver.c.o"
   "httpserver"
   "httpserver.pdb"
 )
